@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		98519C71212544620049A857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98519C70212544620049A857 /* AppDelegate.swift */; };
 		98519C73212544620049A857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98519C72212544620049A857 /* ViewController.swift */; };
-		98519C76212544620049A857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98519C74212544620049A857 /* Main.storyboard */; };
-		98519C78212544640049A857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98519C77212544640049A857 /* Assets.xcassets */; };
 		98519C7B212544640049A857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98519C79212544640049A857 /* LaunchScreen.storyboard */; };
+		98519C83212547E90049A857 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98519C82212547E90049A857 /* PhotoViewController.swift */; };
+		98519C85212879170049A857 /* IMG_1601.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98519C84212879170049A857 /* IMG_1601.jpg */; };
+		98519C872128791F0049A857 /* IMG_1602.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98519C862128791F0049A857 /* IMG_1602.jpg */; };
+		98519C89212879290049A857 /* IMG_1600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98519C88212879280049A857 /* IMG_1600.jpg */; };
+		98519C8C212972F60049A857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98519C8A212972F60049A857 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98519C6D212544620049A857 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98519C70212544620049A857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98519C72212544620049A857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		98519C75212544620049A857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		98519C77212544640049A857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98519C7A212544640049A857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98519C7C212544640049A857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98519C82212547E90049A857 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		98519C84212879170049A857 /* IMG_1601.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1601.jpg; sourceTree = "<group>"; };
+		98519C862128791F0049A857 /* IMG_1602.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1602.jpg; sourceTree = "<group>"; };
+		98519C88212879280049A857 /* IMG_1600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1600.jpg; sourceTree = "<group>"; };
+		98519C8B212972F60049A857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +60,13 @@
 		98519C6F212544620049A857 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				98519C88212879280049A857 /* IMG_1600.jpg */,
+				98519C84212879170049A857 /* IMG_1601.jpg */,
+				98519C862128791F0049A857 /* IMG_1602.jpg */,
+				98519C8A212972F60049A857 /* Main.storyboard */,
 				98519C70212544620049A857 /* AppDelegate.swift */,
 				98519C72212544620049A857 /* ViewController.swift */,
-				98519C74212544620049A857 /* Main.storyboard */,
-				98519C77212544640049A857 /* Assets.xcassets */,
+				98519C82212547E90049A857 /* PhotoViewController.swift */,
 				98519C79212544640049A857 /* LaunchScreen.storyboard */,
 				98519C7C212544640049A857 /* Info.plist */,
 			);
@@ -123,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				98519C7B212544640049A857 /* LaunchScreen.storyboard in Resources */,
-				98519C78212544640049A857 /* Assets.xcassets in Resources */,
-				98519C76212544620049A857 /* Main.storyboard in Resources */,
+				98519C8C212972F60049A857 /* Main.storyboard in Resources */,
+				98519C872128791F0049A857 /* IMG_1602.jpg in Resources */,
+				98519C89212879290049A857 /* IMG_1600.jpg in Resources */,
+				98519C85212879170049A857 /* IMG_1601.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,26 +148,27 @@
 			files = (
 				98519C73212544620049A857 /* ViewController.swift in Sources */,
 				98519C71212544620049A857 /* AppDelegate.swift in Sources */,
+				98519C83212547E90049A857 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		98519C74212544620049A857 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98519C75212544620049A857 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		98519C79212544640049A857 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				98519C7A212544640049A857 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		98519C8A212972F60049A857 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98519C8B212972F60049A857 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QCH7SUUS5G;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QCH7SUUS5G;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
